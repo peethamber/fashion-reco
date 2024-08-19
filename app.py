@@ -36,8 +36,8 @@ def extract_features(img_path,model):
     return normalized_result
 
 filenames = []
-for file in os.listdir('./OG-Media'):
-    filenames.append(os.path.join('./OG-Media',file))
+for file in os.listdir('./OG-Media-Aug182024'):
+    filenames.append(os.path.join('./OG-Media-Aug182024',file))
 
 feature_list = []
 for file in filenames:
